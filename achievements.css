@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navcontainer{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading1{ 
+    font-size: 3rem;
+    margin-left: 10px;
+}
+
+.navcomponents{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 20px;
+    font-size: 1.8rem;
+}
+
+#main{  
+    width: 100%;
+    position: relative;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+}
+
+#heading{
+    background-color: #434343;
+    color: #fff;
+}
+
+.table{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+td{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+}
+
+#format{
+    font-weight: 900;
+}
+
+.matches{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#match-format{
+    margin-left: 20px;
+    width: 65%;
+}
+
+#match-format h1{
+    margin-left: 20px;
+    background-color: #434343;
+    padding-left: 10px;
+    height: 45px;
+    color: #d1c7c7;
+}
+
+#debut, #end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    width: 90%;
+    margin-left: 20px;
+}
+
+#end{
+    margin-bottom: 10px;
+}
+
+.matches video{
+    position: absolute;
+    top: 40%;
+    left: 69%;
+    width: 30%;
+    border: 0px solid black;
+    border-radius: 18px;
+}
+
+.page4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.cards{
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all ease 0.6s;
+}
+
+#card1{
+    background: url('media/2007-world-cup.jpg');
+    background-size: cover;
+}
+
+#card2{
+    background: url('media/2011-world-cup.jpg');
+    background-size: cover;
+}
+
+#card3{
+    background: url('media/2013-world-cup.jpeg');
+    background-size: cover;
+}
+
+#card4{
+    background: url('media/test-mace.jpg');
+    background-size: cover;
+}
+
+#card5{
+    background: url('media/dhoni-logo.webp');
+    background-size: cover;
+}
+
+#card6{
+    background: url('media/padma-shri.jpg');
+    background-size: cover;
+}
+
+#card7{
+    background: url('media/padma-bhushan.jpg');
+    background-size: cover;
+}
+
+#card8{
+    background: url('media/ipl-trophy.jpg');
+    background-size: cover;
+}
+
+.cards:hover .overlay{
+    opacity: 0.8;
+}
+
+#awards-h1{
+    font-size: 140px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+}
